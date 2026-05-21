@@ -1,0 +1,148 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Mateus Latorre",
+      "email": "mateus@gmail.com",
+      "idade": 16
+    },
+    {
+      "id": "2",
+      "nome": "José Silva",
+      "email": "jose@gmail.com",
+      "idade": 98
+    },
+    {
+      "nome": "Barney",
+      "email": "barney@gmail.com",
+      "idade": 16,
+      "id": "x4RXVBC9cHk"
+    },
+    {
+      "nome": "Jair",
+      "email": "jair@gmail.com",
+      "idade": 71,
+      "id": "dnrmDGz_8Wo"
+    }
+  ],
+  "frutas": [],
+  "jogos": [],
+  "imc": [
+    {
+      "nome": "Mateus",
+      "altura": 1.75,
+      "peso": 57,
+      "imc": "18.61",
+      "situacao": "Saudável",
+      "id": "H-bXSO8fl-s"
+    },
+    {
+      "nome": "Antonio",
+      "altura": 1.75,
+      "peso": 90,
+      "imc": "29.39",
+      "situacao": "Sobrepeso",
+      "id": "smwZqRm2XRo"
+    },
+    {
+      "nome": "Pedro",
+      "altura": 1.9,
+      "peso": 80,
+      "imc": "22.16",
+      "situacao": "Saudável",
+      "id": "0bxtt7Ql2c8"
+    },
+    {
+      "nome": "Bruno",
+      "altura": 1.9,
+      "peso": 75,
+      "imc": "20.78",
+      "situacao": "Saudável",
+      "id": "Zotwne_EoKA"
+    },
+    {
+      "nome": "Joao",
+      "altura": 1.85,
+      "peso": 72,
+      "imc": "21.04",
+      "situacao": "Saudável",
+      "id": "uxjCJSHuESE"
+    },
+    {
+      "nome": "Maria",
+      "altura": 1.6,
+      "peso": 60,
+      "imc": "23.44",
+      "situacao": "Saudável",
+      "id": "R_P7x9x0k14"
+    },
+    {
+      "nome": "marcos",
+      "altura": 1.78,
+      "peso": 95,
+      "imc": "29.98",
+      "situacao": "Sobrepeso",
+      "id": "U7hGT6b_vkM"
+    },
+    {
+      "nome": "stephani",
+      "altura": 1.45,
+      "peso": 60,
+      "imc": "28.54",
+      "situacao": "Sobrepeso",
+      "id": "NH-idoIttBA"
+    }
+  ],
+  "post": [
+    {
+      "texto": "carro",
+      "imagem": "https://www.fiat.com.br/content/dam/fiat/pulse-my26/assets-home/carrossel/pulse-impetus-hibrido.webp",
+      "qtdCurtidas": 5,
+      "id": "KwOtLYizHAw"
+    },
+    {
+      "texto": "carro 2",
+      "imagem": "https://www.fiat.com.br/content/dam/fiat/pulse-my26/assets-home/carrossel/pulse-impetus-hibrido.webp",
+      "qtdCurtidas": 5,
+      "id": "6acoFZ5OG_U"
+    }
+  ],
+  "calculadora": [
+    {
+      "n1": 34,
+      "n2": 36,
+      "op": "soma",
+      "resultado": "70.00",
+      "id": "VPBBJhWCjeY"
+    },
+    {
+      "n1": 6,
+      "n2": 9,
+      "op": "soma",
+      "resultado": "15.00",
+      "id": "5oU7F_doq54"
+    },
+    {
+      "n1": 100000,
+      "n2": 10,
+      "op": "divisao",
+      "resultado": "10000.00",
+      "id": "qa0FdVJV8fQ"
+    },
+    {
+      "n1": 3,
+      "n2": 7,
+      "op": "multiplicacao",
+      "resultado": "21.00",
+      "id": "ssuoNSJC_Kk"
+    },
+    {
+      "n1": 456734,
+      "n2": 54,
+      "op": "divisao",
+      "resultado": "8458.04",
+      "id": "0YTYRQwbbX4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Bem-vindo</h1>
+    <div>
+        <span id="spn-nome"></span>
+        <span id="spn-sobrenome"></span>
+    </div>
+    <input type="text" id="nome" placeholder="digite seu nome" onblur="criaSobrenome()"
+        onkeypress="replicaNome(this.value)" />
+    <script>
+        let criouSobrenome = false;
+
+        function replicaNome(nome, sobrenome) {
+            document.getElementById("spn-nome").textContent = nome;
+        }
+
+        function replicaSobrenome(sobrenome) {
+            document.getElementById("spn-sobrenome").textContent = sobrenome;
+        }
+
+        function criaSobrenome() {
+            if (!criouSobrenome) {
+                document.body.innerHTML += `<input type="text" id="sobrenome" placeholder="digite seu sobrenome" onkeypress="replicaSobrenome(this.value)">`;
+                criouSobrenome = true;
+            }
+            criouSobrenome = true;
+        }
+        function trocaTitulo() {
+            const titulo = prompt("Digite o novo título da página:");
+            document.title = `Página do ${titulo}`;
+            document.body.innerHTML += `<h2>Bem-vindo à página do ${titulo}!</h2>`;
+        }
+    </script>
+</body>
+
+</html>

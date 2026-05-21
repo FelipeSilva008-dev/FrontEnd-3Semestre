@@ -1,0 +1,13 @@
+{
+  "Genero": [
+    {
+      "nome": "suspense",
+      "id": "hPlrAVsY7zE"
+    },
+    {
+      "nome": "cómedia",
+      "id": "KIlnouNKpSk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,21 @@
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    background-color: #7B50F0;
+    background-repeat: no-repeat;
+}
+
+.cabecalho-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-link {
+    text-decoration: none;
+    color: white;
+    /* background-color: rgb(255, 255, 255); */
+    padding: 6px;
+}

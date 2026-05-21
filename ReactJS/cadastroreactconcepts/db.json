@@ -1,0 +1,19 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Bomba",
+      "descricao": "Bomba legal",
+      "preco": 67.67,
+      "imagem": "/hero.png"
+    },
+    {
+      "nome": "I hate niggers",
+      "descricao": "Kabla",
+      "preco": 119,
+      "imagem": "/hero.png",
+      "id": "qG9NBAtIAgI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
