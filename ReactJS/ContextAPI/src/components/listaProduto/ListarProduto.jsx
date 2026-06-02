@@ -7,7 +7,7 @@ const ListarProduto = () => {
         <>
         <h2>Listagem de Produtos    </h2>
         {listaProdutos?.map((item) => {
-            <p>{item}</p>
+            return <p key={Math.random()}>{item}</p>
         })}
         </>
 
