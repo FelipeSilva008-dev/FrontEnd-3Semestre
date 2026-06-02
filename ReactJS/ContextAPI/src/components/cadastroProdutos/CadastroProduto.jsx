@@ -3,7 +3,7 @@ import { ProdutoContext } from "../../context/ProdutoContext"
 
 const CadastroProduto = () => {
     //contextos globais
-    const { listaProdutos, setListaProdutos } = useContext(ProdutoContext)
+    const { listaProduto, setListaProduto } = useContext(ProdutoContext)
     //states locais
     const [novoProduto, setNovoProduto] = useState("")
 
@@ -18,7 +18,7 @@ const CadastroProduto = () => {
             />
 
             <button onClick={() => {
-                setListaProdutos([...listaProdutos, novoProduto])
+                setListaProduto([...listaProduto, novoProduto])
                 setNovoProduto("")
                 alert("Produto Cadastrado com Sucesso!")
             }}
