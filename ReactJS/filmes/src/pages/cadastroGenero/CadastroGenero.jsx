@@ -43,7 +43,7 @@ const CadastroGenero = () => {
             if (retornoAPI.status == 201 || retornoAPI.status === 200) {
                 Alerta({
                     title: "Cadastro de Gênero",
-                    text: `Gênero (${objCadastro.nome}) foi cadastrado com sucesso!!`,
+                    text: `Gênero "${objCadastro.nome}" foi cadastrado com sucesso!!`,
                     icon: "success",
                     confirmButtonText: "OK"
                 });
@@ -92,7 +92,7 @@ const CadastroGenero = () => {
     const editarGenero = async (e) => {
         e.preventDefault();
         // alert(`Gênero ${valor} | id: ${idEditar}`)
-
+ 
         const objEditar = {
             nome: valor
         }
@@ -104,7 +104,7 @@ const CadastroGenero = () => {
             if (retornoAPI.status === 201 || retornoAPI.status === 200) {
                 Alerta({
                     title: "Edição de Gênero",
-                    text: `Gênero (${objEditar.nome}) foi editado com sucesso!!`,
+                    text: `Gênero "${objEditar.nome}" foi editado com sucesso!!`,
                     icon: "info",
                     confirmButtonText: "OK"
                 });
@@ -132,7 +132,7 @@ const CadastroGenero = () => {
         //validação do formulario   
         const result = await Alerta({
             title: "Exclusão de Gênero",
-            text: `Tem certeza que deseja excluir o gênero (${item.nome})?`,
+            text: `Tem certeza que deseja excluir o gênero "${item.nome}"?`,
             icon: "warning",
             showCancelButton: true,
             confirmButtonColor: "#3085d6",

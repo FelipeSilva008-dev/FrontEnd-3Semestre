@@ -11,6 +11,34 @@
     {
       "nome": "Ação",
       "id": "dnm_dNjXC4s"
+    },
+    {
+      "nome": "Drama",
+      "id": "nXDIzKLtK_0"
+    },
+    {
+      "nome": "Romance",
+      "id": "uLv8LyBX_bQ"
+    },
+    {
+      "nome": "Ficção",
+      "id": "FPMCnRwctuE"
+    }
+  ],
+  "Filme": [
+    {
+      "titulo": "Vingadores: Ultimato",
+      "genero": {
+        "nome": "Comédia"
+      },
+      "id": "G_Ye8uaIxkQ"
+    },
+    {
+      "titulo": "Senhor dos aneis",
+      "genero": {
+        "nome": "Terror"
+      },
+      "id": "NzcOwNUSyc4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

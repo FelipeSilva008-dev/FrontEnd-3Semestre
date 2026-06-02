@@ -26,12 +26,24 @@ const Cadastro = (props) => {
                     </div>
                     <div className="campo_cad_genero" style={{ display: props.visibilidade }}>
                         <label htmlFor="genero">Gênero</label>
-                        <select name="genero" id="">
-                            <option value="" >Selecione</option>
-                            <option value="">op 1</option>
-                            <option value="">op 2</option>
-                            <option value="">op 3</option>
+                           <select
+                            name="genero"
+                            id="genero"
+                            value={props.generoSelecionado}
+                            onChange={(e) => props.setGeneroSelecionado(e.target.value)}
+                        >
+                            <option value="">Selecione</option>
+
+                            {props.listaGeneros?.map((item) => {
+                                return (
+                                    <option key={item.id} value={item.nome}>
+                                        {item.nome}
+                                    </option>
+                                )
+                            })}
                         </select>
+
+
                     </div>
 
                     {/* Botão Editar tem    ue ser do tipo button */}
