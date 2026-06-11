@@ -20,7 +20,7 @@ const Rotas = () => {
 
         <Route path="/generos"
           element={
-            <PrivateRoute>
+           <PrivateRoute>
               <CadastroGenero />
             </PrivateRoute>
           }
